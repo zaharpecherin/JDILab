@@ -23,7 +23,7 @@ body a{
 }
 /*-----start-header----*/
 .bg{
-	background:url(../images/baner.jpg) no-repeat 0px 0px;
+	background:url(../images/background_image.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .header{
