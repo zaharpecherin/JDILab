@@ -1,0 +1,335 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JDILab</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <!---- animated-css ---->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" title="JDIlab" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#services" class="scroll">Services</a></li>
+								<li><a href="#port" class="scroll">Portfolio</a></li>
+								<li><a href="#team" class="scroll">About Us</a></li>
+								<li><a href="#contact" class="scroll">Contact</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner ---->
+			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+				<div class="container">
+					<div class="banner-info text-center">
+						<h1>LABORATORY OF TRUE Professionals</h1><br />
+						<span> </span>
+						<p>We are a team of web developers who believe in the success of your projects and create it!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!---- banner ---->
+			<!--- services --->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head text-center">
+						<h2>Core Services</h2>
+						<span> </span>
+					</div>
+					<!--- services-grids --->
+					<div class="services-grids text-center">
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon1"> </span>
+								<h3><a href="#">Web development</a></h3>
+								<p>Our team creates effective business solutions based powerful highly loaded systems.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon2"> </span>
+								<h3><a href="#">Mobile platforms</a></h3>
+								<p>We create effective, powerful and convenient application for any your business goals.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-grid wow bounceIn" data-wow-delay="0.4s">
+								<span class="service-icon3"> </span>
+								<h3><a href="#">24/7 Support</a></h3>
+								<p>You can be rest assured about your project 24 hours a day, 7 days a week.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- services-grids --->
+				</div>
+			</div>
+			<!--- services --->
+			<div class="clearfix"> </div>
+
+			<!--- portfolio ---->
+			<div id="port" class="portfolio">
+				<div class="portfolio-top">
+					<div class="col-md-8">
+						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+							<h3>Our best projects</h3>
+						</div>
+					</div>
+
+					<div class="clearfix"> </div>
+					<!---- portfolio-works ---->
+					<div class="portfolio-works">
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/p1.png" title="name"/>
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>VelvetJobs</h4>
+								<p><a href="https://www.velvetjobs.com/" target="_blank"> www.velvetjobs.com</a></p>
+								<p>VelvetJobs is the most comprehensive career destination and matchmaking site focused on Fashion.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.42s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/p2.png" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>Anaphora Radio</h4>
+								<p><a href="https://www.anaphoraradio.com" target="_blank">www.anaphoraradio.com</a></p>
+								<p>Listen to coptic audio customized by you.</p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.45s">
+							<div class="portfolio-work-grid-pic">
+								<img src="images/p3.png" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4>TEBOTO</h4>
+								<p><a href="https://teboto.de" target="_blank">www.teboto.de</a></p>
+								<p>TEBOTO enables you to easily and quickly create mobile app for virtually any business without having to know any programming.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---- portfolio-works ---->
+				</div>
+			</div>
+			<!--- portfolio ---->
+			<!---- about ---->
+			<!---start-about---->
+		<!--<div class="about">-->
+			<!--<div class="wrap"> -->
+				<!--<div class="about-head">-->
+					<!--<h1>About us</h1>-->
+					<!--<span> </span>-->
+				<!--</div>-->
+				<!--&lt;!&ndash;-start-about-time-line&#45;&#45;&ndash;&gt;-->
+				<!--<div class="about-time-line">-->
+					<!--<li>-->
+							<!--<div class="cbp_tmicon img1"> </div>-->
+							<!--<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">-->
+								<!--<h2>July 2010 Our Humble Beginnings</h2>-->
+								<!--<p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>-->
+							<!--</div>-->
+					<!--</li>-->
+					<!--<li>-->
+							<!--<div class="cbp_tmicon1 img2"> </div>-->
+							<!--<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">-->
+								<!--<h2>January 2011 Facing Startup Battles </h2>-->
+								<!--<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>-->
+							<!--</div>-->
+					<!--</li><br />-->
+					<!--<li>-->
+							<!--<div class="cbp_tmicon2 img3"> </div>-->
+							<!--<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">-->
+								<!--<h2>December 2012 Enter The Dark Days </h2>-->
+								<!--<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>-->
+							<!--</div>-->
+					<!--</li>-->
+					<!--<li>-->
+							<!--<div class="cbp_tmicon3 img4"> </div>-->
+							<!--<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">-->
+								<!--<h2>January 2013Our Triumph </h2>-->
+								<!--<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>-->
+							<!--</div>-->
+					<!--</li>-->
+					<!--<li>-->
+							<!--<div class="cbp_tmicon4 img5"> </div>-->
+					<!--</li>-->
+					<!--<div class="clearfix"> </div>-->
+				<!--</div>-->
+				<!--<div class="clearfix"> </div>-->
+				<!--</div>-->
+				<!--&lt;!&ndash;-//End-about-time-line&#45;&#45;&ndash;&gt;-->
+			<!--&lt;!&ndash;&#45;&#45; about &#45;&#45;&ndash;&gt;-->
+		<!--</div>-->
+			<!---- team --->
+			<div id="team" class="team-members">
+					<div class="wrap"> 
+						<div class="tm-head">
+							<h3>Our amazing team</h3>
+						</div>
+						<div class="tm-head-grids">
+							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
+								<img src="images/zahar.jpg" alt="">
+								<h4>Zahar Pecherin</h4>
+								<h5>Team Leader</h5>
+								<!--<ul class="top-social-icons">-->
+									<!--<li><a class="twitter" href="#"> </a></li>-->
+									<!--<li><a class="facebook" href="#"> </a></li>-->
+									<!--<li><a class="pin" href="#"> </a></li>-->
+									<!--<div class="clear"> </div>-->
+								<!--</ul>-->
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.42s">
+								<img src="images/marianne.jpg" alt="">
+								<h4>Marianne Pecherina</h4>
+								<h5>Senior Web Developer</h5>
+								<!--<ul class="top-social-icons">-->
+									<!--<li><a class="twitter" href="#"> </a></li>-->
+									<!--<li><a class="facebook" href="#"> </a></li>-->
+									<!--<li><a class="pin" href="#"> </a></li>-->
+									<!--<div class="clear"> </div>-->
+								<!--</ul>-->
+							</div>
+							<div class="tm-head-grid wow fadeInRight" data-wow-delay="0.45s">
+								<img src="images/olga.jpg" alt="">
+								<h4>Olga Gorchakova</h4>
+								<h5>Web/Mobile Developer</h5>
+								<!--<ul class="top-social-icons">-->
+									<!--<li><a class="twitter" href="#"> </a></li>-->
+									<!--<li><a class="facebook" href="#"> </a></li>-->
+									<!--<li><a class="pin" href="#"> </a></li>-->
+									<!--<div class="clear"> </div>-->
+								<!--</ul>-->
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<p class="team-info">
+							Our core competency lies in complete end-end management of a new website development project, and I am seeking opportunities to build websites from the ground up for you or your business.
+						</p>
+					</div>
+				</div>
+			<!---- team --->
+			<!---- contact --->
+			<div id="contact" class="contact">
+				<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-6">
+						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3>Contact Us</h3>
+							<label>Don't be shy, drop us an email and say hello! We are a really nice bunch of people :)</label>
+							<div class="contact-left-grids">
+								<div class="col-md-6">
+									<div class="contact-left-grid">
+										<p><span class="c-mobi"> </span>+7 (918) 858-8270</p>
+										<!--<p><span class="c-twitter"> </span><a href="#">@dreams</a></p>-->
+										<!--<p><span class="c-pluse"> </span><a href="#">plus.com/dreams</a></p>-->
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-right-grid">
+										<p><span class="c-msg"> </span><a href="mailto:hello@dreams.com">hello@jdi-lab.com</a></p>
+										<!--<p><span class="c-face"> </span><a href="#">facebook.com/dreams</a></p>-->
+										<!--<p><span class="c-pin"> </span><a href="#">pinterest.com/dreams</a></p>-->
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/ru'>Maps Generator</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=340e6ebc818a4047828e5d2880b71730d1f010c5'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(47.2166635,38.912577899999974),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.2166635,38.912577899999974)});infowindow = new google.maps.InfoWindow({content:'<strong>JDILab</strong><br>Kuznechnaya street, 28<br> Taganrog<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--- copy-right ---->
+				<div class="copy-right text-center">
+					<p>Copyright &copy; 2016 JDILab. All rights reserved</p>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+				<!--- copy-right ---->
+			</div>
+			</div>
+			<!---- contact --->
+		</div>
+	</body>
+</html>
+
