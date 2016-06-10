@@ -1105,6 +1105,9 @@ a.leran-more:hover{
 	}
 }
 @media (max-width:480px){
+	.map {
+		display: none;
+	}
 	.container{
 		width:80%;
 	}
@@ -1234,6 +1237,9 @@ a.leran-more:hover{
 	}
 }
 @media (max-width:320px){
+	.map {
+		display: none;
+	}
 	.container{
 		width:90%;
 	}
