@@ -29,6 +29,25 @@
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
 		<!----webfonts--->
@@ -121,21 +140,32 @@
 								<p>You can be rest assured about your project 24 hours a day, 7 days a week.</p>
 							</div>
 						</div>
-						<div class="clearfix"> </div>
 					</div>
 					<!--- services-grids --->
+				</div>
+				<div class="clearfix"> </div>
+				<div style="margin-top: 30px; margin-bottom: 60px">
+					<div class="col-md-8">
+						<div class="portfolio-top-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+							<h3>Technologies</h3>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="col-md-8 col-lg-offset-1" style="margin-top: 30px; color: #888888;">
+						<p>We have developed a wide range of websites using <strong>Ruby on Rails, HTML/CSS, JavaScript(AngularJS, Backbone.js)</strong> including sites for startup companies and small businesses.</p>
+						<p>We also have experience in the following areas: <strong>SQL, Ajax, jQuery, PHP (Zend Framework, Kohana, CodeIgniter), Node.JS.</strong></p>
+					</div>
 				</div>
 			</div>
 			<!--- services --->
 			<div class="clearfix"> </div>
 
 			<!--- portfolio ---->
-			<div id="port" class="portfolio">
+			<div id="port" class="portfolio" style="margin-top: 56px">
 				<div class="portfolio-top">
-					<div class="col-md-8">
-						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
-							<h3>Our best projects</h3>
-						</div>
+					<div class="service-head text-center">
+						<h2>Our Best Projects</h2>
+						<span> </span>
 					</div>
 
 					<div class="clearfix"> </div>
@@ -158,7 +188,7 @@
 							<div class="portfolio-work-grid-caption">
 								<h4>Anaphora Radio</h4>
 								<p><a href="https://www.anaphoraradio.com" target="_blank">www.anaphoraradio.com</a></p>
-								<p>Listen to coptic audio customized by you.</p>
+								<p>With Anaphora, you can finally find the right audio customized for you. We have hundreds of tracks available and are continually adding more to the Library.</p>
 							</div>
 						</div>
 						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.45s">
@@ -301,7 +331,14 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='http://maps-generator.com/ru'>Maps Generator</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=340e6ebc818a4047828e5d2880b71730d1f010c5'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(47.2166635,38.912577899999974),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.2166635,38.912577899999974)});infowindow = new google.maps.InfoWindow({content:'<strong>JDILab</strong><br>Kuznechnaya street, 28<br> Taganrog<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+						<div style='overflow:hidden;height:400px;width:520px;'>
+							<div id='gmap_canvas' style='height:400px;width:520px;'></div>
+							<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+						</div>
+						<a href='http://maps-generator.com/ru'>Maps Generator</a>
+						<script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=340e6ebc818a4047828e5d2880b71730d1f010c5'></script>
+						<script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(47.2166635,38.912577899999974),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.2166635,38.912577899999974)});infowindow = new google.maps.InfoWindow({content:'<strong>JDILab</strong><br>Kuznechnaya street, 28<br> Taganrog<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
