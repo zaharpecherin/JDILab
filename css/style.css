@@ -629,6 +629,12 @@ a.leran-more:hover{
 	float: left;
 	margin-right: 4.5%;
 }
+
+.tm-head-grid:nth-child(4) {
+	width: 31%;
+	margin-left: 17%;
+}
+
 .tm-head-grids {
 	width: 75%;
 	margin: 3.3em auto 2.3em auto;
@@ -998,6 +1004,10 @@ a.leran-more:hover{
 		float: none;
 		margin-right: 0;
 	}
+	.tm-head-grid:nth-child(4) {
+		width: 100%;
+		margin-left: 0;
+	}
 	.team-info {
 		width: 80%;
 	}
@@ -1090,6 +1100,10 @@ a.leran-more:hover{
 		width: 100%;
 		float: none;
 		margin-right: 0;
+	}
+	.tm-head-grid:nth-child(4) {
+		width: 100%;
+		margin-left: 0;
 	}
 	.team-info {
 		width: 80%;
@@ -1186,6 +1200,10 @@ a.leran-more:hover{
 		width: 100%;
 		float: none;
 		margin-right: 0;
+	}
+	.tm-head-grid:nth-child(4) {
+		width: 100%;
+		margin-left: 0;
 	}
 	.team-info {
 		width: 80%;
@@ -1319,6 +1337,10 @@ a.leran-more:hover{
 		width: 100%;
 		float: none;
 		margin-right: 0;
+	}
+	.tm-head-grid:nth-child(4) {
+		width: 100%;
+		margin-left: 0;
 	}
 	.team-info {
 		width: 80%;
