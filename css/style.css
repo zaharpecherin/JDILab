@@ -697,6 +697,17 @@ a.leran-more:hover{
 	height:40px;
 	display:block;
 }
+
+.linkedin{
+	background:url(../images/linkedin.png) no-repeat 0px 0px;
+}
+.github{
+	background:url(../images/github.png) no-repeat 0px 0px;
+}
+.vk{
+	background:url(../images/vk.png) no-repeat 0px 0px;
+}
+
 .twitter{
 	background:url(../images/top-social-icons.png) no-repeat 0px 0px;
 }
